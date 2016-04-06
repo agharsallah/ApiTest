@@ -1,2 +1,3 @@
 # ApiTest
-//first comit
+npm install
+loclhost:8080
