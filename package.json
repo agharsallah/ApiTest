@@ -1,10 +1,36 @@
 {
-  "name": "node-api",
+  "name": "api_test",
+  "version": "1.0.0",
+  "description": "npm install",
   "main": "server.js",
   "dependencies": {
-    "morgan": "~1.5.0",
-    "express": "~4.10.3",
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "~1.9.3",
-    "bcrypt-nodejs": "0.0.3"
-  }
+    "express": "~4.10.3",
+    "express-validator": "^2.20.3",
+    "morgan": "~1.5.0",
+    "request": "^2.70.0",
+    },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunter-x/ApiTest.git"
+  },
+  "keywords": [
+    "qpx",
+    "api",
+    "express",
+    "rest",
+    "test"
+  ],
+  "author": "abderrahmen gharsallah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hunter-x/ApiTest/issues"
+  },
+  "homepage": "https://github.com/hunter-x/ApiTest#readme"
 }
